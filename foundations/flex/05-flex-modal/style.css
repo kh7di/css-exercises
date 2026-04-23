@@ -20,6 +20,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
 }
 
 .icon {
@@ -66,4 +67,31 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* added by me */
+.modal{
+  padding: 15px;
+  column-gap: 15px;
+  align-items: flex-start;
+}
+
+.header{
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.text-cancel-buttons{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.header-cancel{
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon{
+  flex-shrink: 0;
 }
